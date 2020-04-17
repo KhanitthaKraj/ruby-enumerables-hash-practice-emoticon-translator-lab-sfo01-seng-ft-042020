@@ -23,10 +23,10 @@ def get_english_meaning(yml_file, japanese_emoticon)
   load_library(file)
   emoticon_hash
   file.each do |element|
-    if japanese_emoticon == file[name_of_emoticon][:english] 
-      puts name_of_emoticon
-    end
-  end
+ #   if japanese_emoticon == file[name_of_emoticon][:english] 
+     # puts name_of_emoticon
+   # end
+  #end
   binding.pry
 end
 

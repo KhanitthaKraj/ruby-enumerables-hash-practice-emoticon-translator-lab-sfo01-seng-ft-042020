@@ -21,15 +21,17 @@ end
 
 def get_english_meaning(file, japanese_emoticon)
   load_library(file)
-
+  empticon_name = ""
   load_library(file).each do |name, value|
     value.each do |element|
       if japanese_emoticon == element[1]
+        puts name
+        emoticon_name = name
         #binding.pry
       end
     end
   end
-  name
+  emoticon_name
 end
 
 

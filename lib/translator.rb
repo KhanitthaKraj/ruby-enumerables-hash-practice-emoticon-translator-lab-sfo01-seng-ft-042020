@@ -20,7 +20,7 @@ end
 
 
 def get_english_meaning(file, japanese_emoticon)
-  load_library(file_path)
+  load_library("./lib/emoticons.yml")
   emoticon_name = ""
   load_library(file).each do |name, value|
     value.each do |element|

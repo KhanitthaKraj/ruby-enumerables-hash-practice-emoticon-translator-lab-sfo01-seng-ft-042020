@@ -18,13 +18,15 @@ def load_library(file)
   emoticon_hash
 end
 
+
+def get_english_meaning
+  # code goes here
+end
+
+
 def get_japanese_emoticon(file, english_emoticon)
   load_library(file)
   english_emoticon.each do |element|
 
   end
-end
-
-def get_english_meaning
-  # code goes here
 end

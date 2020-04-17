@@ -22,8 +22,10 @@ end
 def get_english_meaning(file, japanese_emoticon)
   load_library(file)
 
-  load_library(file).each do |element, value|
-
+  load_library(file).each do |name, value|
+    value.each do |element|
+      
+    end
        
  binding.pry
 

@@ -7,7 +7,7 @@ def load_library(file)
   loaded_hash = YAML.load_file("./lib/emoticons.yml")
   loaded_hash.each do |key, emoticons|
     if !emoticon_hash[emoticons]
-      
+      emoticon_hash[emoticons] = {}
     end
     emoticons.each do |emoticon|
       

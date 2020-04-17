@@ -21,6 +21,11 @@ end
 
 def get_english_meaning(file, japanese_emoticon)
   load_library(file)
+  load_library.each do |element|
+    if load_library[name_of_emoticon][:english] == [:japanese]
+      puts name_of_emoticon
+    end
+  end
   binding.pry
 end
 

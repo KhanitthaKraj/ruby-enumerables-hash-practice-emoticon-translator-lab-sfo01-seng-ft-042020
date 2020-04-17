@@ -30,6 +30,7 @@ def get_english_meaning(file, japanese_emoticon)
       end
     end
   end
+  name
 end
 
 

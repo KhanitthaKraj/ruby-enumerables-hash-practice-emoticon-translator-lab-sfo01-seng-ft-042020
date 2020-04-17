@@ -26,7 +26,7 @@ def get_english_meaning(file, japanese_emoticon)
     #if japanese_emoticon == element[name][:japanese]
 
       binding.pry
-    end
+    #end
   end
 
 end

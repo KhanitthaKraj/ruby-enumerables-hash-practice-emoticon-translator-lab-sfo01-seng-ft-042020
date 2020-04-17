@@ -28,7 +28,7 @@ def get_english_meaning(file, japanese_emoticon)
         puts name
         emoticon_name = name
       else
-        puts 
+        puts "Sorry, that emoticon was not found"
       end
     end
   end

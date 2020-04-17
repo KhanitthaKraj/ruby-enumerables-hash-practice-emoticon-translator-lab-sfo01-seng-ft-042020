@@ -26,7 +26,7 @@ def get_english_meaning(file, japanese_emoticon)
     element.each do |value|
 
        
-
+ binding.pry
       
     end
   end

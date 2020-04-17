@@ -16,6 +16,7 @@ def load_library(file)
     end
   end
   emoticon_hash
+  binding.pry
 end
 
 
@@ -25,7 +26,7 @@ def get_english_meaning(file, japanese_emoticon)
   load_library(file).each do |element|
     element.each do |value|
 
-        binding.pry
+       
 
       
     end

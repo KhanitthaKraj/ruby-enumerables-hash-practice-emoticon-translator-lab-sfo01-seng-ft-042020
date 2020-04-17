@@ -19,7 +19,7 @@ def load_library(file)
 end
 
 
-def get_english_meaning(file, japanese_emoticon)
+def get_english_meaning(yaml_file, japanese_emoticon)
   load_library(file)
   emoticon_name = ""
   load_library(file).each do |name, value|

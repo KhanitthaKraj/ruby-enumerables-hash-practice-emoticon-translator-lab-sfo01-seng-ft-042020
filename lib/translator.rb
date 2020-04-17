@@ -27,7 +27,8 @@ def get_english_meaning(file, japanese_emoticon)
       if japanese_emoticon == element[1]
         puts name
         emoticon_name = name
-        #binding.pry
+      else
+        puts 
       end
     end
   end

@@ -11,6 +11,7 @@ def load_library(file)
     if !emoticon_hash[name_of_emoticon][emoticons_arr]
       emoticon_hash[name_of_emoticon][emoticons_arr] = {}
     end
+    binding.pry
   end
     
     binding.pry

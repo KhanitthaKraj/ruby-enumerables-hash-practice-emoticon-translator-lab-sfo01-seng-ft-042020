@@ -18,7 +18,7 @@ def load_library(file)
   emoticon_hash
 end
 
-def get_japanese_emoticon(english_emoticon)
+def get_japanese_emoticon(file, english_emoticon)
   
 end
 

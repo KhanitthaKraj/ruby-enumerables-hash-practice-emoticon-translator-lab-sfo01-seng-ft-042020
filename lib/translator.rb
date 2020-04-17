@@ -21,7 +21,7 @@ end
 def get_japanese_emoticon(file, english_emoticon)
   load_library(file)
   english_emoticon.each do |element|
-    p emoticon_hash[name_of_emoticon][:japanese]
+    if 
   end
 end
 

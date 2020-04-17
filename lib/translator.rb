@@ -5,6 +5,7 @@ def load_library(file)
   emoticon_hash = {}
   loaded_hash = YAML.load_file("./lib/emoticons.yml")
   loaded_hash.each do |name_of_emoticon, emoticons_arr|
+    binding.pry
     if !emoticon_hash[name_of_emoticon]
       emoticon_hash[name_of_emoticon] = {}
     end

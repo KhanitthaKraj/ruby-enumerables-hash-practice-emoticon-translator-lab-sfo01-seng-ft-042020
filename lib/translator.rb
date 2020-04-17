@@ -1,8 +1,10 @@
 require 'pry'
 require "yaml"
 
+emoticon_hash = {}
+
 def load_library(file)
-  emoticon_hash = YAML.load_file("./lib/emoticons.yml")
+  loaded_hash = YAML.load_file("./lib/emoticons.yml")
   emoticon_hash.each do |key, values|
     binding.pry
   end

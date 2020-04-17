@@ -16,7 +16,6 @@ def load_library(file)
     end
   end
   emoticon_hash
-  binding.pry
 end
 
 

@@ -19,7 +19,7 @@ def load_library(file)
 end
 
 
-def get_english_meaning(file, japanese_emoticon)
+def get_english_meaning(yml_file, japanese_emoticon)
   load_library(file)
   file.each do |element|
     if japanese_emoticon == file[name_of_emoticon][:english] 

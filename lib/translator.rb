@@ -22,6 +22,7 @@ def get_japanese_emoticon(file, english_emoticon)
   load_library(file)
   english_emoticon.each do |element|
     if 
+    end
   end
 end
 
